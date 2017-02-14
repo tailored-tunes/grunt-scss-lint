@@ -60,7 +60,7 @@ exports.init = function (grunt) {
         env = process.env,
         child;
 
-    args.push('scss_lint');
+    args.push('scss-lint');
 
     if (options.bundleExec) {
       args.unshift('bundle', 'exec');
